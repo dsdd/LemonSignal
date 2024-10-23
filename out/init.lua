@@ -77,6 +77,8 @@ end
 
 Connection.Disconnect = disconnect
 Connection.Reconnect = reconnect
+Connection.disconnect = disconnect
+Connection.reconnect = reconnect
 
 --\\ Signal //--
 local Signal = {}
@@ -254,5 +256,11 @@ Signal.Wait = wait
 Signal.Fire = fire
 Signal.DisconnectAll = disconnectAll
 Signal.Destroy = destroy
+Signal.connect = connect
+Signal.once = once
+Signal.wait = wait
+Signal.fire = fire
+Signal.disconnectAll = disconnectAll
+Signal.destroy = destroy
 
 return { new = Signal.new, wrap = Signal.wrap }
