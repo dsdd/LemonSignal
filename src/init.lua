@@ -263,4 +263,6 @@ Signal.fire = fire
 Signal.disconnectAll = disconnectAll
 Signal.destroy = destroy
 
-return { new = Signal.new, wrap = Signal.wrap }
+local obj = { new = Signal.new, wrap = Signal.wrap }
+obj.default = obj
+return obj

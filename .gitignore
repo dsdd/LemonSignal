@@ -1,8 +1,5 @@
-docs/.vitepress/dist
-docs/.vitepress/cache
-node_modules
-sourcemap.json
-build
-profile.out
-profile.svg
-__pycache__
+/node_modules
+/out
+/include
+*.tsbuildinfo
+flamework.build

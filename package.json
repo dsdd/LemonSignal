@@ -1,19 +1,18 @@
 {
     "name": "@antivivi/lemon-signal",
-    "version": "1.2.0",
+    "version": "1.2.4",
     "main": "out/init.lua",
     "scripts": {
         "build": "rbxtsc",
-        "watch": "rbxtsc -w",
-        "prepublishOnly": "npm run build"
+        "watch": "rbxtsc -w"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "description": "",
-    "types": "src/index.d.ts",
+    "types": "out/index.d.ts",
     "files": [
-        "src",
+        "out",
         "!**/*.tsbuildinfo"
     ],
     "publishConfig": {
